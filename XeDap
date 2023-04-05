@@ -1,0 +1,23 @@
+package BT1_LAB7;
+
+public class XeDap extends PhuongTienDiChuyen{
+
+    public XeDap() {
+    }
+
+    public XeDap(String loaiPhuongTien, HangSanXuat hangSanXuat) {
+        super(loaiPhuongTien, hangSanXuat);
+    }
+
+    @Override
+    double layVanToc() {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "XeDap{" + '}';
+    }
+    
+    
+}
