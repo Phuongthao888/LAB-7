@@ -1,0 +1,21 @@
+package BT2_LAB7;
+
+import java.util.Scanner;
+
+public class main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String center = sc.nextLine();
+        MoveableCircle circle = new MoveableCircle();
+        circle.moveDown();
+        circle.moveUp();
+        circle.moveLeft();
+        circle.moveRight();
+        
+        MoveablePoint point = new MoveablePoint(1, 2, 10, 50);
+        point.moveDown();
+        point.moveUp();
+        point.moveLeft();
+        point.moveRight();
+    }
+}
