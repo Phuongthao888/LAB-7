@@ -1,0 +1,42 @@
+package BT2_LAB7;
+
+public class MoveableCircle implements Moveable{
+
+    public int Radius;
+    MoveablePoint center;
+
+    public MoveableCircle(){
+        
+    }
+    
+    public MoveableCircle(int Radius, MoveablePoint center) {
+        this.Radius = Radius;
+        this.center = center;
+    }
+    
+    @Override
+    public void moveUp() {
+        System.out.println("di len");
+    }
+
+    @Override
+    public void moveDown() {
+        System.out.println("di xuong");
+    }
+
+    @Override
+    public void moveLeft() {
+        System.out.println("sang trai");
+    }
+
+    @Override
+    public void moveRight() {
+        System.out.println("sang phai");
+    }
+
+    @Override
+    public String toString() {
+        return "MoveableCircle{" + "Radius=" + Radius + ", center=" + center + '}';
+    }
+    
+}
