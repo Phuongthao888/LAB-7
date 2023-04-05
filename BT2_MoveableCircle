@@ -16,22 +16,22 @@ public class MoveableCircle implements Moveable{
     
     @Override
     public void moveUp() {
-        System.out.println("di len");
+        this.center.moveUp();
     }
 
     @Override
     public void moveDown() {
-        System.out.println("di xuong");
+        this.center.moveDown();
     }
 
     @Override
     public void moveLeft() {
-        System.out.println("sang trai");
+        this.center.moveLeft();
     }
 
     @Override
     public void moveRight() {
-        System.out.println("sang phai");
+        this.center.moveRight();
     }
 
     @Override
