@@ -1,0 +1,24 @@
+package BT1_LAB7;
+
+public class XeOto extends PhuongTienDiChuyen{
+    private String loaiNhienLieu;
+
+    public XeOto() {
+    }
+
+    public XeOto(String loaiNhienLieu, String loaiPhuongTien, HangSanXuat hangSanXuat) {
+        super(loaiPhuongTien, hangSanXuat);
+        this.loaiNhienLieu = loaiNhienLieu;
+    }
+
+    @Override
+    double layVanToc() {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "XeOto{" + "loaiNhienLieu=" + loaiNhienLieu + '}';
+    }
+    
+}
