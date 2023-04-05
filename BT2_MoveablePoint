@@ -1,0 +1,46 @@
+package BT2_LAB7;
+
+public class MoveablePoint implements Moveable{
+    public int x;
+    public int y;
+    public int xSpeed;
+    public int ySpeed;
+
+    public MoveablePoint(){
+        
+    }
+    
+    public MoveablePoint(int x, int y, int xSpeed, int ySpeed) {
+        this.x = x;
+        this.y = y;
+        this.xSpeed = xSpeed;
+        this.ySpeed = ySpeed;
+    }
+
+    @Override
+    public void moveUp() {
+        System.out.println("di len");
+    }
+
+    @Override
+    public void moveDown() {
+        System.out.println("di xuong");
+    }
+
+    @Override
+    public void moveLeft() {
+        System.out.println("sang trai");
+    }
+
+    @Override
+    public void moveRight() {
+        System.out.println("sang phai");
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "MoveablePoint{" + "x=" + x + ", y=" + y + ", xSpeed=" + xSpeed + ", ySpeed=" + ySpeed + '}';
+    }
+    
+    
+}
